@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 173 173" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <rect id="Artboard3" x="0" y="0" width="173" height="173" style="fill:none;"/>
+    <clipPath id="_clip1">
+        <rect id="Artboard31" serif:id="Artboard3" x="0" y="0" width="173" height="173"/>
+    </clipPath>
+    <g clip-path="url(#_clip1)">
+        <g id="Beeldmerk" transform="matrix(1,0,0,1,-32.6,-253.6)">
+            <g id="M">
+                <path d="M125.9,328.4L138.8,328.4L125.2,377.1L113,377.1L95.6,315.8L95.2,315.8L92.4,377.1L76.1,377.1L81.1,299.3L104.5,299.3L118.7,353.1L119.4,353.1L125.9,328.4ZM157,299.3L133.5,299.3L129.2,315.8L142.9,315.8L145.7,377.1L162,377.1L157,299.3Z" style="fill-rule:nonzero;"/>
+            </g>
+            <g id="Circle">
+                <g>
+                    <g>
+                        <clipPath id="_clip2">
+                            <path d="M119.1,426.6C71.4,426.6 32.6,387.8 32.6,340.1C32.6,292.4 71.4,253.6 119.1,253.6C166.8,253.6 205.6,292.4 205.6,340.1C205.6,387.8 166.7,426.6 119.1,426.6ZM119.1,272.7C81.9,272.7 51.6,303 51.6,340.2C51.6,377.4 81.9,407.7 119.1,407.7C156.3,407.7 186.6,377.4 186.6,340.2C186.6,303 156.3,272.7 119.1,272.7Z"/>
+                        </clipPath>
+                        <g clip-path="url(#_clip2)">
+                            <rect x="3.3" y="203" width="228.1" height="241.6" style="fill:rgb(255,209,0);"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

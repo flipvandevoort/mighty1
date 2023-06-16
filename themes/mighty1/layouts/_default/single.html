@@ -1,0 +1,20 @@
+<div class="center">
+  {{ partial "header.html" . }}
+
+  <article id="main" class="flow">
+    <div class="switcher">
+      <div class="flow text-align-justify" style="--flow-space: var(--space-2xs)">
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+      </div>
+      <div></div>
+    </div>
+    <div class="masonry">
+      {{ range .Params.images }}
+      <img src="{{ . }}" />
+      {{ end }}
+    </div>
+  </article>
+
+  {{ partial "footer.html" . }}
+</div>

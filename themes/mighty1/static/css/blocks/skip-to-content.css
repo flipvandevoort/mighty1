@@ -1,0 +1,14 @@
+.skip-to-content {
+  background: var(--color-primary);
+  color: black;
+  padding: var(--space-3xs) var(--space-xs);
+  border-bottom-left-radius: calc(var(--space-xs) * 0.5);
+  border-bottom-right-radius: calc(var(--space-xs) * 0.5);
+  position: absolute;
+  transform: translateY(calc(-100% - var(--space-s))) translateX(-50%);
+  left: 50%;
+}
+
+.skip-to-content:focus-within {
+  transform: translateY(calc(0px - var(--space-s))) translateX(-50%);
+}

@@ -1,0 +1,32 @@
+{{ $currentPage := . }}
+<article class="flow" style="--flow-space: var(--space-xs-s)">
+  <div class="cluster" style="--space: var(--space-2xs)">
+    <!-- Category buttons -->
+    <a href="/" id="alles" class="button">Alles</a>
+    {{ range .Site.Taxonomies.categories }}
+    <a
+      href="{{ .Page.RelPermalink }}"
+      class="button {{ if eq .Page.RelPermalink $currentPage.RelPermalink }}active{{ end }}"
+      >{{ .Page.Title }}</a
+    >
+    {{ end }}
+  </div>
+  <div class="grid" id="main">
+    {{ $showAllPages := and (not $currentPage.RelPermalink) (not .Params.category) }} {{ range
+    .Paginator.Pages }} {{ if and (eq .Type "posts") (or $showAllPages (and .Params.categories (eq
+    $currentPage.Params.category .Params.category))) }}
+    <!-- Portfolio item for each post -->
+    <div class="portfolio-item">
+      <a href="{{ .RelPermalink }}">
+        <figure>
+          <img src="{{ index .Params.images 0 }}" alt="" />
+        </figure>
+        <div>
+          <h3>{{ .Title }}</h3>
+          <p>{{ if .Params.categories }}{{ index .Params.categories 0 }}{{ end }}</p>
+        </div>
+      </a>
+    </div>
+    {{ end }} {{ end }}
+  </div>
+</article>
