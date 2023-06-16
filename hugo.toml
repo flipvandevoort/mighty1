@@ -6,3 +6,6 @@ theme = 'mighty1'
   posts = "/:filename/"
   pages = "/:filename/"
   categories = "/:slug/"
+[params]
+  favicon = "favicon.icon"
+
