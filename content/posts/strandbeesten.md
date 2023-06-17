@@ -1,6 +1,6 @@
 ---
 title: Strandbeesten
-date: 2023-06-17T21:27:31.986Z
+date: 2022-09-15T21:27:31.986Z
 draft: false
 categories: Cultuur-educatie
 images:
