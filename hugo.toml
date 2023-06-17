@@ -1,7 +1,8 @@
-baseURL = 'https://mighty1.netlify.app'
+baseURL = 'https://mighty1.nl'
 languageCode = 'nl'
 title = 'Mighty 1'
 theme = 'mighty1'
+paginate = 0
 [permalinks]
   posts = "/:filename/"
   pages = "/:filename/"
