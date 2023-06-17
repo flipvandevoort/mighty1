@@ -4,6 +4,7 @@ date: 2023-06-17T02:47:13+02:00
 draft: false
 categories: Concept & Creatie
 images:
+  - image: /images/uploads/tcv_postermockup.jpg
   - image: /images/uploads/tcv_postermockup.webp
   - image: /images/uploads/tcv_poster2.webp
   - image: /images/uploads/tcv_poster3.webp
