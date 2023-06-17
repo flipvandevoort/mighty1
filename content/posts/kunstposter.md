@@ -1,6 +1,6 @@
 ---
 title: Kunstposter
-date: 2023-06-17T01:39:20.067Z
+date: 2022-12-13T02:39:00.000Z
 draft: false
 categories: Concept & Creatie
 images:
