@@ -1,4 +1,4 @@
-baseURL = 'https://mighty1.nl/'
+baseURL = 'https://mighty1.netlify.app/'
 languageCode = 'nl'
 title = 'Mighty 1'
 theme = 'mighty1'
