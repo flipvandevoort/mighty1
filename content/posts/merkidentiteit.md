@@ -1,6 +1,6 @@
 ---
 title: Merkidentiteit
-date: 2022-09-14T21:04:06.760Z
+date: 2022-05-26T21:04:06.760Z
 draft: false
 categories: Concept & Creatie
 images:
