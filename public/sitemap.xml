@@ -2,10 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://mighty1.nl/kunstposter/</loc>
+    <loc>https://mighty1.nl/</loc>
+    <lastmod>2023-06-17T03:15:44+02:00</lastmod>
+  </url><url>
+    <loc>https://mighty1.nl/pages/</loc>
+    <lastmod>2023-06-17T03:15:44+02:00</lastmod>
+  </url><url>
+    <loc>https://mighty1.nl/privacybeleid/</loc>
+    <lastmod>2023-06-17T03:15:44+02:00</lastmod>
+  </url><url>
+    <loc>https://mighty1.nl/imprint/</loc>
+    <lastmod>2023-06-17T03:09:50+02:00</lastmod>
+  </url><url>
+    <loc>https://mighty1.nl/categories/</loc>
     <lastmod>2023-06-17T02:47:13+02:00</lastmod>
   </url><url>
-    <loc>https://mighty1.nl/</loc>
+    <loc>https://mighty1.nl/concept-creatie/</loc>
+    <lastmod>2023-06-17T02:47:13+02:00</lastmod>
+  </url><url>
+    <loc>https://mighty1.nl/kunstposter/</loc>
     <lastmod>2023-06-17T02:47:13+02:00</lastmod>
   </url><url>
     <loc>https://mighty1.nl/posts/</loc>
@@ -14,13 +29,8 @@
     <loc>https://mighty1.nl/contact/</loc>
     <lastmod>2023-06-17T02:36:53+02:00</lastmod>
   </url><url>
-    <loc>https://mighty1.nl/pages/</loc>
-    <lastmod>2023-06-17T02:36:53+02:00</lastmod>
-  </url><url>
     <loc>https://mighty1.nl/over/</loc>
     <lastmod>2023-06-17T02:36:46+02:00</lastmod>
-  </url><url>
-    <loc>https://mighty1.nl/categories/</loc>
   </url><url>
     <loc>https://mighty1.nl/tags/</loc>
   </url>

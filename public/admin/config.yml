@@ -29,7 +29,7 @@ collections:
           widget: "list",
           fields: [{ label: "Image", name: "image", widget: "image" }],
         }
-      - { label: "Content", name: "content", widget: "markdown" }
+      - { label: "Content", name: "body", widget: "markdown" }
 
   - name: "pages" # Used in routes, e.g., /admin/collections/pages
     label: "Pages" # Used in the UI
@@ -38,4 +38,4 @@ collections:
     slug: "{{slug}}" # Filename template, using the title as the slug
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Content", name: "content", widget: "markdown" }
+      - { label: "Content", name: "body", widget: "markdown" }
