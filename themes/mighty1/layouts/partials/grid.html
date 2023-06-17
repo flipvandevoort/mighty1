@@ -7,8 +7,9 @@
     <a
       href="{{ .Page.RelPermalink }}"
       class="button {{ if eq .Page.RelPermalink $currentPage.RelPermalink }}active{{ end }}"
-      >{{ .Page.Title }}</a
     >
+      {{ .Page.Title }}
+    </a>
     {{ end }}
   </div>
   <div class="grid" id="main">
@@ -19,7 +20,9 @@
     <div class="portfolio-item">
       <a href="{{ .RelPermalink }}">
         <figure>
-          <img src="{{ index .Params.images 0 }}" alt="" />
+          {{ with .Params.images }} {{ $firstImage := index . 0 }}
+          <img src="{{ $firstImage.image }}" alt="" />
+          {{ end }}
         </figure>
         <div>
           <h3>{{ .Title }}</h3>
