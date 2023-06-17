@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  branch: main # Branch to update
 
 # These lines should *not* be indented
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
@@ -33,7 +33,7 @@ collections:
 
   - name: "pages" # Used in routes, e.g., /admin/collections/pages
     label: "Pages" # Used in the UI
-    folder: "" # The path to the folder where the documents are stored
+    folder: "content/pages" # The path to the folder where the documents are stored
     create: false # Disallow users from creating new documents in this collection
     slug: "{{slug}}" # Filename template, using the title as the slug
     fields: # The fields for each document, usually in front matter
