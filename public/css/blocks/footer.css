@@ -1,0 +1,6 @@
+footer {
+  font-size: var(--step--1);
+  border-top: var(--border);
+  padding: var(--space-xs-s) 0;
+  margin-top: var(--space-l-xl);
+}

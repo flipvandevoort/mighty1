@@ -1,0 +1,32 @@
+.portfolio-item a {
+  text-decoration: none;
+}
+
+.portfolio-item a > * + * {
+  margin-top: var(--space-2xs);
+}
+
+.portfolio-item figure {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.portfolio-item img {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  object-fit: cover;
+  transition: var(--transition-base);
+}
+
+.portfolio-item:hover img {
+  transform: scale(1.04);
+}
+
+.portfolio-item:hover h3 {
+  text-decoration: underline;
+}
+
+.portfolio-item p {
+  font-size: var(--step--1);
+  font-weight: 300;
+}

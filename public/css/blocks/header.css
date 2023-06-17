@@ -1,0 +1,4 @@
+header {
+  padding: var(--space-s) 0;
+  margin-bottom: var(--gutter);
+}

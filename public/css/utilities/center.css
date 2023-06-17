@@ -1,0 +1,7 @@
+.center {
+  box-sizing: content-box;
+  margin-inline: auto;
+  max-inline-size: 1240px;
+  padding-inline-start: var(--gutter);
+  padding-inline-end: var(--gutter);
+}

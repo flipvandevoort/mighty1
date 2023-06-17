@@ -1,0 +1,18 @@
+.site-logo img {
+  height: var(--space-xl);
+  width: auto;
+}
+
+.site-logo .small {
+  display: none;
+}
+
+@media screen and (max-width: 659px) {
+  .site-logo .default {
+    display: none;
+  }
+
+  .site-logo .small {
+    display: unset;
+  }
+}

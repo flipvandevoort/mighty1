@@ -1,0 +1,62 @@
+html {
+  background-color: var(--color-primary);
+}
+
+body {
+  color: black;
+  background: white;
+  font-size: var(--step-0);
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+}
+
+/* Base typesetting */
+h1,
+h2,
+h3 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: var(--step-3);
+}
+
+h2 {
+  font-size: var(--step-2);
+}
+
+h3 {
+  font-size: var(--step-1);
+}
+
+/* Set line lengths */
+p,
+li,
+blockquote:not([class]) {
+  max-width: 75ch;
+}
+
+h1,
+h2,
+h3 {
+  max-width: 50ch;
+}
+
+/* Base interactive elements */
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+main:focus {
+  outline: none;
+}
+
+/* Base selection styles that invert whatever colours are rendered */
+::selection {
+  background: var(--color-primary);
+  color: black;
+}
