@@ -1,6 +1,8 @@
 .masonry {
   column-count: 2;
   column-gap: var(--gutter);
+  column-fill: balance;
+  -webkit-column-fill: balance;
 }
 
 @media screen and (max-width: 659px) {
