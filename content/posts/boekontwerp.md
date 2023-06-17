@@ -1,6 +1,6 @@
 ---
 title: Boekontwerp
-date: 2022-09-14T21:08:15.122Z
+date: 2019-11-26T22:08:15.122Z
 draft: false
 categories: Concept & Creatie
 images:
