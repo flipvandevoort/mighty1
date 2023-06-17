@@ -2,8 +2,8 @@
 title: "Contact"
 date: 2023-06-17T02:36:53+02:00
 draft: false
-categories:
-images:
+categories: []
+images: []
 ---
 
 Elkaar even spreken en leren kennen is de makkelijkste manier om erachter te komen of ik iets voor je kan betekenen.
