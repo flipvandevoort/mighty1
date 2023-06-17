@@ -2,7 +2,7 @@ baseURL = 'https://mighty1.nl'
 languageCode = 'nl'
 title = 'Mighty 1'
 theme = 'mighty1'
-paginate = 0
+paginate = 9999
 [permalinks]
   posts = "/:filename/"
   pages = "/:filename/"
