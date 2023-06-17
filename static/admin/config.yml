@@ -13,14 +13,23 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, using the title as the slug
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Draft", name: "draft", widget: "boolean", default: false}
-      - {label: "Categories", name: "categories", widget: "select", multiple: false, options: ["Concept & Creatie", "Cultuur-educatie"]}
-      - {label: "Images", name: "images", widget: "list", fields: [
-          {label: "Image", name: "image", widget: "image"}
-        ]}
-    - {label: "Content", name: "content", widget: "markdown"}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - {
+          label: "Categories",
+          name: "categories",
+          widget: "select",
+          multiple: false,
+          options: ["Concept & Creatie", "Cultuur-educatie"],
+        }
+      - {
+          label: "Images",
+          name: "images",
+          widget: "list",
+          fields: [{ label: "Image", name: "image", widget: "image" }],
+        }
+      - { label: "Content", name: "content", widget: "markdown" }
 
   - name: "pages" # Used in routes, e.g., /admin/collections/pages
     label: "Pages" # Used in the UI
@@ -28,7 +37,5 @@ collections:
     create: false # Disallow users from creating new documents in this collection
     slug: "{{slug}}" # Filename template, using the title as the slug
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Content", name: "content", widget: "markdown"}
-
-
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Content", name: "content", widget: "markdown" }
