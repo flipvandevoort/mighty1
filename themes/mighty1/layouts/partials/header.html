@@ -7,13 +7,7 @@
     <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
 
     <link rel="stylesheet" href="/css/global.css" type="text/css" media="all" />
-    <link
-      rel="preload"
-      href="https://use.typekit.net/yth2kjp.css"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
+    <link rel="stylesheet" href="https://use.typekit.net/yth2kjp.css" />
 
     {{ with .OutputFormats.Get "rss" -}} {{ printf `
     <link rel="%s" type="%s" href="%s" title="%s" />
