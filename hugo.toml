@@ -9,4 +9,8 @@ paginate = 9999
   categories = "/:slug/"
 [params]
   favicon = "favicon.icon"
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
 
