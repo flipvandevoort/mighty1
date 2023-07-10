@@ -9,4 +9,5 @@ images:
   - image: /images/uploads/mot0001_lg_logopresentatie4.jpg
   - image: /images/uploads/mot0001_lg_logopresentatie5.jpg
 ---
-Motiwa zorgt voor betekenisvolle ervaringen in de natuur om het welzijn van medewerkers in bedrijven te stimuleren. Met fysieke en mentale uitdagingen en zelfreflectie om de 'sparkle' terug te vinden of te versterken.
+Motiwa zorgt voor betekenisvolle ervaringen in de natuur om het welzijn van medewerkers in bedrijven te stimuleren. Met fysieke en mentale uitdagingen en zelfreflectie om de 'sparkle' terug te vinden of te versterken.\
+Daarom: bergen en dalen, refelctie en de 'sparkle' gevat in een logo dat qua uitstraling past in een zakelijk markt.
