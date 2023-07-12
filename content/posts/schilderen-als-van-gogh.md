@@ -13,5 +13,7 @@ images:
   - image: /images/uploads/img_1499-scaled.jpeg
   - image: /images/uploads/img_1500-scaled.jpeg
   - image: /images/uploads/img_1501-scaled.jpeg
+  - image: /images/uploads/img_3627.jpeg
+  - image: /images/uploads/img_3628.jpeg
 ---
 Samen kijken we naar hoe Vincent van Gogh schilderde en wat hij schilderde. En we ontdekken dat hij heel veel verschillende technieken had. Een aantal van die technieken gaan we zelf ook proberen. Op mini-schilderijtjes maken wij onze kunstwerkjes: onze eigen slaapkamer, (zonne-)bloemen en de sterrennacht of durven we de uitdaging aan en gaan we voor het zelfportret?
