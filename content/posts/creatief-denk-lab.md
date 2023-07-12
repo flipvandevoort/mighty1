@@ -13,5 +13,6 @@ images:
   - image: /images/uploads/img_4640-scaled.jpg
   - image: /images/uploads/img_4587-scaled.jpg
   - image: /images/uploads/img_0827.jpg
+  - image: /images/uploads/img_3160.jpeg
 ---
-Interactief ontdekken en ervaren wat creatief denken is, wat je er allemaal mee kunt, hoe je het op heel verschillende manieren kunt inzetten en hoe ontzettend leuk en waardevol creatief denken is. Voor iedereen van 5 tot 105, leerlingen, leerkrachten, studenten, bejaarden, teams, enz. Ja 'voor iedereen' zei het eigenlijk al...
+Interactief ontdekken en ervaren wat creatief denken is, wat je er allemaal mee kunt, hoe je het op heel verschillende manieren kunt inzetten en hoe ontzettend leuk en waardevol creatief denken is. Voor iedereen van 5 tot 105, leerlingen, leerkrachten, studenten, bejaarden, teams, enz. Uhm ja, 'voor iedereen' zei het eigenlijk al...
